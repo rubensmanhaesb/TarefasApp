@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasApp.UI", "TarefasApp.UI\TarefasApp.UI.csproj", "{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI Layer", "1 - UI Layer", "{88845958-CEDC-409B-9FC3-7E31AF83A5EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services Layer", "2 - Services Layer", "{C59075BF-FC67-4CEF-8276-CA25552568FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasApp.Services", "TarefasApp.Services\TarefasApp.Services.csproj", "{659479B5-33E7-461C-AEF3-1E417F12DD90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{659479B5-33E7-461C-AEF3-1E417F12DD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659479B5-33E7-461C-AEF3-1E417F12DD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659479B5-33E7-461C-AEF3-1E417F12DD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659479B5-33E7-461C-AEF3-1E417F12DD90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFBB64D2-4178-4399-A0DA-C5CEB0B180A6} = {88845958-CEDC-409B-9FC3-7E31AF83A5EC}
+		{659479B5-33E7-461C-AEF3-1E417F12DD90} = {C59075BF-FC67-4CEF-8276-CA25552568FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
